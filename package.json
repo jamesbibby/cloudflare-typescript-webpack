@@ -1,0 +1,38 @@
+{
+  "name": "cloudflare-typescript-webpack",
+  "version": "0.0.1",
+  "description": "A Cloudflare Worker built with TypeScript and Webpack",
+  "main": "dist/index.js",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/runtime": "^7.3.1",
+    "@types/jest": "^24.0.11",
+    "babel-cli": "^6.26.0",
+    "jest": "^24.1.0",
+    "service-worker-mock": "^2.0.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "typescript",
+    "serverless"
+  ],
+  "author": "James Bibby <bibby@bibs.codes>",
+  "license": "MIT"
+}
